@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using Game.PlayerSpace;
+using Engine;
 
 namespace Game
 {
@@ -29,6 +29,7 @@ namespace Game
         public void OnJoinedLobby()
         {
             Debug.Log("Joined server");
+            //PhotonNetwork.sendRate = 
             PhotonNetwork.JoinRandomRoom();
         }
         public void OnPhotonRandomJoinFailed()
@@ -39,7 +40,7 @@ namespace Game
         public void OnJoinedRoom()
         {
             Debug.Log("Joined room");
-            Player.Spawn();
+            Player.Create();
 
         }
     }
