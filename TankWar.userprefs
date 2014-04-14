@@ -1,6 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../DeadSquared/Assets/D2/Cache/CachedObject.cs">
+    <Files>
+      <File FileName="../DeadSquared/Assets/Tangatek/Cache/CachableObject.cs" Line="1" Column="1" />
+      <File FileName="../DeadSquared/Assets/D2/Networking/Agent/Agent.cs" Line="144" Column="13" />
+      <File FileName="../DeadSquared/Assets/D2/Cache/CachedObject.cs" Line="38" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
